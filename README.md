@@ -4,10 +4,35 @@ This repository contains a collection of Python scripts and Jupyter notebooks de
 
 For the financial news collection download the csv files from the following Kaggle link: [Massive Stock News Analysis DB](https://www.kaggle.com/datasets/miguelaenlle/massive-stock-news-analysis-db-for-nlpbacktests?select=raw_partner_headlines.csv)
 
+To ensure that the tree structure is properly displayed with the correct indentation, place this within a fenced code block like this:
+
+```md
 ## Project Structure
 
+```bash
 .
-├── Financial_News │ ├── analyst_ratings_processed.csv # Processed financial news dataset │ ├── raw_analyst_ratings.csv │ ├── raw_partner_headlines.csv │ ├── Datasets │ ├── sp500_news.csv # S&P 500 stock market dataset │ ├── sp500_sentiment_non_weighted.csv # Dataset with sentiment scores │ ├── Scripts │ ├── create_dataset.ipynb # Script for creating the initial datasets │ ├── DF_creation_example.ipynb # DataFrame creation example │ ├── Make_dataset.ipynb # Dataset creation script │ ├── LSTM_3.ipynb # LSTM model for financial data analysis │ ├── LSTM_sentim.ipynb # LSTM model integrated with sentiment analysis │ ├── lstm_refined.ipynb # Refined version of the LSTM model for prediction of closing price of future dates │ ├── ML_algos.ipynb # Machine learning algorithms for stock prediction │ ├── sp500_dataset_sentim.ipynb # Sentiment analysis on S&P 500 dataset │ ├── utilities.py # Utility functions for data processing │ └── README.md # This file
+├── Financial_News
+│   ├── analyst_ratings_processed.csv          # Processed financial news dataset
+│   ├── raw_analyst_ratings.csv 
+│   ├── raw_partner_headlines.csv 
+│
+├── Datasets
+│   ├── sp500_news.csv                         # S&P 500 stock market dataset
+│   ├── sp500_sentiment_non_weighted.csv       # Dataset with sentiment scores
+│
+├── Scripts
+│   ├── create_dataset.ipynb                   # Script for creating the initial datasets
+│   ├── DF_creation_example.ipynb              # DataFrame creation example
+│   ├── Make_dataset.ipynb                     # Dataset creation script
+│   ├── LSTM_3.ipynb                           # LSTM model for financial data analysis
+│   ├── LSTM_sentim.ipynb                      # LSTM model integrated with sentiment analysis
+│   ├── lstm_refined.ipynb                     # Refined version of the LSTM model for prediction of closing price of future dates
+│   ├── ML_algos.ipynb                         # Machine learning algorithms for stock prediction
+│   ├── sp500_dataset_sentim.ipynb             # Sentiment analysis on S&P 500 dataset
+│   ├── utilities.py                           # Utility functions for data processing
+│
+└── README.md                                  # This file
+```
 
 ## Dependencies
 
