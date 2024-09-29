@@ -6,9 +6,8 @@ For the financial news collection download the csv files from the following Kagg
 
 To ensure that the tree structure is properly displayed with the correct indentation, place this within a fenced code block like this:
 
-```md
 ## Project Structure
-
+```md
 ```bash
 .
 ├── Financial_News
