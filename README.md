@@ -8,7 +8,6 @@ To ensure that the tree structure is properly displayed with the correct indenta
 
 ## Project Structure
 ```md
-```bash
 .
 ├── Financial_News
 │   ├── analyst_ratings_processed.csv          # Processed financial news dataset
