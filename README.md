@@ -25,6 +25,7 @@ To ensure that the tree structure is properly displayed with the correct indenta
 │   ├── LSTM_3.ipynb                           # LSTM model for financial data analysis
 │   ├── LSTM_sentim.ipynb                      # LSTM model integrated with sentiment analysis
 │   ├── lstm_refined.ipynb                     # Refined version of the LSTM model for prediction of closing price of future dates
+│   ├── lstm model final.ipynb                 # Refined version of the LSTM model for prediction of closing price of future dates without bert model features for comaprison
 │   ├── ML_algos.ipynb                         # Machine learning algorithms for stock prediction
 │   ├── sp500_dataset_sentim.ipynb             # Sentiment analysis on S&P 500 dataset
 │   ├── utilities.py                           # Utility functions for data processing
@@ -73,7 +74,8 @@ Multiple machine learning and deep learning models are applied to predict stock 
 
 - `LSTM_3.ipynb`: This notebook contains the initial implementation of an LSTM model for time-series forecasting on financial data.
 - `LSTM_sentim.ipynb`: Implements a Long Short-Term Memory (LSTM) model with sentiment analysis integrated into the stock price prediction pipeline.
-- `lstm_refined.ipynb`: Refined version of the LSTM model with additional parameters for better prediction accuracy.
+- `lstm_refined.ipynb`: Refined version of the LSTM model with hyperparametere tuning for better prediction accuracy.
+- `lstm model final.ipynb`: Refined version of the LSTM model with hyperparametere tuning for better prediction accuracy.
 - `ML_algos.ipynb`: Contains multiple machine learning algorithms such as Random Forest, Decision Trees, and Support Vector Machines (SVM) for predicting stock market trends.
 
 ## Usage
@@ -98,6 +100,8 @@ To run the notebooks, follow these steps:
     - `ML_algos.ipynb`
     - `LSTM_3.ipynb`
     - `LSTM_sentim.ipynb`
+    - `lstm_refined.ipynb`
+    - `lstm model final.ipynb`
 
 ## Dataset Sources
 
